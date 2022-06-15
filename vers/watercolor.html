@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7df21c47ba01ff6e558ebad2a2915ef4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7df21c47ba01ff6e558ebad2a2915ef4" ></div>
+        
+</body>
+<script>    
+    
+            var map_7df21c47ba01ff6e558ebad2a2915ef4 = L.map(
+                "map_7df21c47ba01ff6e558ebad2a2915ef4",
+                {
+                    center: [55.6, 37.618],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ea490dc80906525b9fa06d25878c6ca4 = L.tileLayer(
+                "\thttp://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7df21c47ba01ff6e558ebad2a2915ef4);
+        
+    
+            var marker_aa02a412793a41d066f5d2cf60f09365 = L.marker(
+                [55.722953, 37.66565],
+                {}
+            ).addTo(map_7df21c47ba01ff6e558ebad2a2915ef4);
+        
+    
+            marker_aa02a412793a41d066f5d2cf60f09365.bindTooltip(
+                `<div>
+                     Group-IB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04f636c4044f6317d8d1c87f01ad13ce = L.marker(
+                [55.78359, 37.706164],
+                {}
+            ).addTo(map_7df21c47ba01ff6e558ebad2a2915ef4);
+        
+    
+            marker_04f636c4044f6317d8d1c87f01ad13ce.bindTooltip(
+                `<div>
+                     ГБОУ № 444
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0e15735d057f5de9422329db9595662 = L.marker(
+                [55.765772, 37.68562],
+                {}
+            ).addTo(map_7df21c47ba01ff6e558ebad2a2915ef4);
+        
+    
+            marker_a0e15735d057f5de9422329db9595662.bindTooltip(
+                `<div>
+                     МГТУ им. Баумана
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_040378c533af17666d9ab1850f313e41 = L.marker(
+                [55.32749, 37.696319],
+                {}
+            ).addTo(map_7df21c47ba01ff6e558ebad2a2915ef4);
+        
+    
+            marker_040378c533af17666d9ab1850f313e41.bindTooltip(
+                `<div>
+                     Оздоровительный центр "Полюс"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
